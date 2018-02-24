@@ -1,12 +1,13 @@
 package guitarStore;
 
-public enum Type{
-
+public enum Type {
 	ACOUSTIC, ELECTRIC;
 
 	public String toString(){
-		swith(this){
+		switch(this){
 			case ACOUSTIC: return "acoustic";
+			case ELECTRIC: return "electric";
+			default: return "";
 		}
 	}
 }
