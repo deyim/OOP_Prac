@@ -7,7 +7,7 @@ public class GuitarSpec {
 	private Type type;
 	private Wood backWood, topWood;
 	
-	public GuitarSpec(Builder builder, String model, Type type, Wood backWood, Wood topWood) {
+	public GuitarSpec(Builder builder, String model, Type type, int StringNum, Wood backWood, Wood topWood) {
 		this.builder = builder;
 		this.model = model;
 		this.type = type;
